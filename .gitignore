@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-*/__pycache__
-=======
-venv/*
-.idea/*
-paytabs/*/__pycache__
-
-smpl/settings/local.py
->>>>>>> 05d50bdfcf2ad5b3e785d23847848df71fbd82b2
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
