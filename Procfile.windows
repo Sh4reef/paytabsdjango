@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+web: python manage.py runserver 0.0.0.0:5000
+=======
+web: python paytabs/manage.py runserver 0.0.0.0:5000
+>>>>>>> 05d50bdfcf2ad5b3e785d23847848df71fbd82b2
