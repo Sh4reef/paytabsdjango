@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'if$=+%ls6r=4(uo%^qiwj$@tp858xyvt3xr!iql)#-4zb(iw_c'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['sh4reef.smpl.co']
+ALLOWED_HOSTS = ['paytabsdjango.herokuapp.com']
 
 
 # Application definition
