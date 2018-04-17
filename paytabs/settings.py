@@ -25,7 +25,7 @@ SECRET_KEY = 'if$=+%ls6r=4(uo%^qiwj$@tp858xyvt3xr!iql)#-4zb(iw_c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['paytabsdjango.herokuapp.com', 'console.graph.cool']
+ALLOWED_HOSTS = ['paytabsdjango.herokuapp.com']
 
 
 # Application definition
@@ -39,12 +39,14 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
-    'rest_framework_jwt'
+    'rest_framework_jwt',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -137,5 +139,10 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication',
     ),
 }
+
+CORS_ORIGIN_WHITELIST = (
+    'graph.cool',
+    'console.graph.cool',
+)
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
