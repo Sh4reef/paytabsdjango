@@ -25,7 +25,7 @@ SECRET_KEY = 'if$=+%ls6r=4(uo%^qiwj$@tp858xyvt3xr!iql)#-4zb(iw_c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['paytabsdjango.herokuapp.com']
+ALLOWED_HOSTS = ['paytabsdjango.herokuapp.com', 'console.graph.cool']
 
 
 # Application definition
