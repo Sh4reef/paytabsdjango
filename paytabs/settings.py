@@ -144,7 +144,8 @@ CORS_ORIGIN_WHITELIST = (
     'graph.cool',
     'console.graph.cool',
     'jsbin.com',
-    'null.jsbin.com'
+    'null.jsbin.com',
+    'api.graph.cool'
 )
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
