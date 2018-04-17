@@ -143,6 +143,8 @@ REST_FRAMEWORK = {
 CORS_ORIGIN_WHITELIST = (
     'graph.cool',
     'console.graph.cool',
+    'jsbin.com',
+    'null.jsbin.com'
 )
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
