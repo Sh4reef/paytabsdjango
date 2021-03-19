@@ -3,7 +3,7 @@ chardet==3.0.4
 dj-database-url==0.5.0
 Django==1.11.12
 django-cors-headers==2.2.0
-djangorestframework==3.8.2
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 gunicorn==19.7.1
 idna==2.6
